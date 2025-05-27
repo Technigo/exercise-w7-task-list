@@ -8,7 +8,7 @@ To achieve this, we've built an API to collect 'tasks' with three endpoints. Not
 
 ## Fetch tasks
 
-`GET https://week-7-backend.onrender.com/tasks`
+`GET https://task-api-m07f.onrender.com/tasks`
 
 This will return the tasks from the API, looking something like this:
 
@@ -33,7 +33,7 @@ This will return the tasks from the API, looking something like this:
 
 ## Create a task
 
-`POST https://week-7-backend.onrender.com/tasks`
+`POST https://task-api-m07f.onrender.com/tasks`
 
 Send a POST request with a JSON body like this:
 
@@ -57,7 +57,7 @@ If the request was successful and a task was added, you'll get a response that l
 
 # Check a task
 
-`POST <https://week-7-backend.onrender.com/tasks/:id/check>`
+`POST https://task-api-m07f.onrender.com/tasks/:id/check`
 
 Create a checkbox for every task. When the user checks the box on a task, send a POST request (with no body) to this URL. Replace :id with the \_id parameter of the task the user clicked on
 
